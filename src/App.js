@@ -415,6 +415,20 @@ function App() {
             We have set the gas limit to {CONFIG.GAS_LIMIT} for the contract to
             successfully mint your NFT. We recommend that you don't lower the
             gas limit.
+
+
+            
+          </s.TextDescription>
+          <s.TextDescription
+            style={{
+              textAlign: "center",
+              color: "var(--primary-text)",
+            }}
+          >
+           <p><a href="https://www.rowdypickles.com/">RowdyPickles.com</a></p>
+
+
+            
           </s.TextDescription>
         </s.Container>
       </s.Container>
@@ -423,3 +437,5 @@ function App() {
 }
 
 export default App;
+
+
