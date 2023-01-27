@@ -208,10 +208,12 @@ function App() {
         jc={"center"}
         ai={"center"}
         style={{
-           backgroundSize: 2000, 
+           backgroundSize: 3000, 
            backgroundColor: "var(--primary)" 
           }}
+
         image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : null}
+
       >
         <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
      
@@ -219,7 +221,6 @@ function App() {
             style={{
               textAlign: "center",
               color: "var(--primary-text)",
-              textSizeAdjust: 24,
             }}
           > MINT NOT LIVE YET, COME BACK MARCH 3RD!
             <p><a href="https://www.rowdypickles.com/">www.RowdyPickles.com</a></p>
